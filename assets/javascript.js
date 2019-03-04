@@ -1,4 +1,4 @@
-var topics = ["sushi", "burritos", "pizza", "indian curry", "pie"];
+var topics = ["sushi", "nigiri", "sashimi", "hand roll sushi", "chopsticks"];
 console.log(topics);
 
 function creatButtons() {
@@ -19,7 +19,7 @@ $("#submit-button").on("click", function (event) {
     creatButtons();
 });
 creatButtons();
-$(".newTopic").on("click", function () {
+$(document).on("click", ".newTopic", function () {
     var pickles = $(this).attr("data-name");
     console.log(pickles);
     console.log($(this).attr("data-name"));

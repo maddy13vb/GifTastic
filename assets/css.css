@@ -5,3 +5,24 @@ img {
 max-width:200px;
 max-height: 200px;
 }
+header {
+background-color: rgb(255, 123, 0);
+border: 1pt solid rgb(48, 1, 1);
+text-align: center;
+padding: 5px 0px 5px 0px;
+margin:20px;
+font-size: 65px;
+font-family: 'Permanent Marker', cursive;
+}
+.newTopic {
+    background-color: rgb(255, 123, 0);
+    color: rgb(48, 1, 1);
+    border: 1pt solid rgb(48, 1, 1);
+    font-size: 25px;
+    margin: 0px -10px 0px 20px;
+    font-family: 'Permanent Marker', cursive;
+}
+#gifs-appear {
+    background-color: rgb(255, 123, 0);
+    border: 1pt solid rgb(48, 1, 1);
+}
